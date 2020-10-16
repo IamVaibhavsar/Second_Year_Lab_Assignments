@@ -128,6 +128,7 @@ void read(int mat[10][10], int row,int column)
 
 }
 
+//displaying of Matrices
 void display(int mat[10][10], int row,int column)
 {
 	for(int i=0;i<row;i++)
@@ -140,6 +141,7 @@ void display(int mat[10][10], int row,int column)
 	}
 }
 
+//Addition of Matrices
 void add(int mat1[10][10],int mat2[10][10],int n,int z)
 {
 	int i,j,sum[10][10];
@@ -155,6 +157,7 @@ void add(int mat1[10][10],int mat2[10][10],int n,int z)
 	}
 }
 
+//substraction of Matrices
 void subtract(int mat1[10][10],int mat2[10][10],int n,int z)
 {
 	int i,j,sub[10][10];
@@ -170,6 +173,7 @@ void subtract(int mat1[10][10],int mat2[10][10],int n,int z)
 	}
 }
 
+//Multiplication of Matrices
 void multiply(int mat1[10][10],int mat2[10][10],int r, int c)
 {
     int mul[10][10],k;
@@ -188,6 +192,7 @@ void multiply(int mat1[10][10],int mat2[10][10],int r, int c)
     display(mul,r,c);
 }
 
+//Transpose of Matrices
 void transpose(int mat1[10][10],int r,int c)
 {
     for(int i=0;i<r;i++)
@@ -232,19 +237,3 @@ void upper(int mat[10][10],int row ,int column)
 		cout<<"Matrix is NOT upper triangular : "<<endl;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
