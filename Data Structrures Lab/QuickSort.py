@@ -1,10 +1,3 @@
-#Name:Abhishek Tilwar
-#Roll No:2101001
-#Class: SE-A(Computer)
-#Prn:72031575B
-#DSL  Assignment-6
-
-
 def partition(array, start, end):
     pivot = array[start]
     low = start + 1
@@ -56,30 +49,3 @@ for i in range(len(arr)):
 
 z.sort(reverse=True)
 print(z[0:5])
-
-
-'''
-Output:-
-
-Enter number of students: 7
-Enter the percentage of students:-
-Enter the student percentage: 32.46
-Enter the student percentage: 12.35
-Enter the student percentage: 67.36
-Enter the student percentage: 95.44
-Enter the student percentage: 36.44
-Enter the student percentage: 87.63
-Enter the student percentage: 55.32
-
- The sorted percentage list is:
-12.35
-32.46
-36.44
-55.32
-67.36
-87.63
-95.44
-
-The top five students percentage are:-
-[95.44, 87.63, 67.36, 55.32, 36.44]
-'''
